@@ -9,7 +9,6 @@ const Nav = ( )=>{
 
    
       useEffect(()=>{  
-          console.log("HTML classes before:", document.documentElement.className);
 
           if(dark){
                document.documentElement.classList.add("dark")
@@ -18,7 +17,6 @@ const Nav = ( )=>{
                 document.documentElement.classList.remove("dark")
           }
 
-          console.log("HTML classes after:", document.documentElement.className);
       } , [dark])
        
 

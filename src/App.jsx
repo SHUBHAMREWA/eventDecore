@@ -1,8 +1,12 @@
-import React from 'react' ;
+import React, { useEffect, useReducer } from 'react' ;
 import { BrowserRouter ,Routes , Route } from 'react-router-dom';
 import Homepage from './pages/Homepage.jsx';
  
 const App = () => {
+
+
+ 
+
   return (
 
     <BrowserRouter>            
